@@ -1,3 +1,4 @@
+preview: https://syeed-md-talha.github.io/ostad-fullstack-assignment01/
 # Full Stack Web Development with Python, Django & React
 
 ## Assignment 01 | Batch 01 | 2024 | HTML, CSS & JS
