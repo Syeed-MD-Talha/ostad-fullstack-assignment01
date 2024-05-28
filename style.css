@@ -1,0 +1,241 @@
+:root {
+    --Poppins: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--Poppins);
+}
+
+/*.................Navbar section of this site........................... */
+
+.NavBar {
+    background-color:tomato;
+    color: white;
+    width: 15%;
+    height: 100%;
+    font-size: 20px;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+    font-weight:500;
+}
+.NavBar .title{
+    padding: 70px 10%;
+    font-size: 24px;
+    font-weight: 700;  
+}
+.links{
+    padding-left: 10%;
+    padding-bottom: 15%;
+    padding-right: 5%;
+}
+.links div{padding: 10px;}
+.links div:hover{background-color: rgba(255, 166, 0, 0.428);cursor: pointer;}
+.links a{color: white;text-decoration: none;}
+
+
+
+/*.................Heading section of this site........................... */
+.container {
+    padding-top: 70px;
+    margin-left: 20vw;
+    margin-right: 4%;
+    background-color: white;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container>.heading>span {
+    font-size: 60px;
+    font-family: var(--Poppins);
+    font-weight: 600;
+}
+
+.first-one {
+    color: tomato;
+    font-size: 45px !important;
+    font-weight: 600 !important;
+}
+
+.title-design .second-one {
+    background-color: tomato;
+    height: 10px;
+    width: 60px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.title-design{margin-bottom: 30px;}
+
+
+
+
+
+
+
+/*........................ Showcase...............................*/
+
+.showcases {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    column-gap: 15px;
+    row-gap: 5px;
+    padding: 1% 0px;
+}
+.showcases img {width: 100%;}
+.showcases div{margin:0px;padding: 0px; opacity: 0.8;}
+.half-rectangle-background-image{position: relative;opacity: 1 !important;}
+.half-rectangle{
+    position: absolute;
+    width: 100%;
+    height: 55%;
+    background-color: rgba(255, 255, 255, 0.285);
+}
+
+
+
+
+
+/*........................ Designers ...............................*/
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.card img{width:100%;}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 18px;
+    filter: grayscale(75%);
+    background-color: rgba(128, 128, 128, 0.134);
+}
+.cards .card>span{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cards .card .title{font-size: 24px;}
+.cards .card .identity,.cards .card .details{font-size: 18px;}
+.cards .identity{color: grey;}
+.cards .details{color: rgba(0, 0, 0, 0.724);}
+.designers-bios{
+    font-weight: 500;font-size: 18px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/*******************Packages *********************/
+
+.table{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    column-gap: 20px;
+    width: 100%;
+    text-align: center;
+}
+.table .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 15px;
+}
+.table .row .half{
+    padding: 25px 0px;
+    background-color: rgba(198, 195, 195, 0.204);
+    border-bottom: 1px solid rgba(109, 107, 107, 0.15);
+    width: 100%; 
+}
+.heading-left,.heading-right{color: white;font-size: 22px;}
+.heading-left{background-color: grey !important;}
+.heading-right{background-color: tomato !important;}
+
+.operator{cursor: pointer;margin: 2px 10px;}
+.left-signup,.right-signup{
+    background-color: white;
+    display: inline-block;
+    padding: 15px 25px;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+}
+.right-signup{background-color: tomato;color: white;}
+.left-signup:hover,.right-signup:hover{scale: 1.2;font-weight: bold;}
+.operator-minus:hover{cursor: pointer;color: red;}
+.operator-plus:hover{cursor: pointer;color: green;}
+.left-thanks,.right-thanks{
+    opacity: 0;
+    padding: 20px 0px !important;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out; 
+    margin-bottom: 2%;
+}
+.calc{font-size: 30px;}
+.below{color: gray;border: none !important;}
+
+
+
+
+
+
+/******************* Contact *********************/
+
+.contact input{
+    width: 99.2%;
+    padding: 15px 0px;
+    padding-left:10px;
+    margin: 0px 0px 20px 0px;
+    border: 1px solid rgba(128, 128, 128, 0.246);
+    font-size: 18px;
+    outline-color: orange;
+}
+
+.contact button{
+    margin: 10px 0px;
+    background-color: tomato;
+    color: white;
+    padding: 15px 0;
+    font-size: 20px;
+    width: 100%;
+    border: 1px solid rgba(100, 98, 98, 0.235);
+    cursor: pointer;
+}
+.contact button:hover{background-color: orange;color: black;}
+
+
+
+
+
+/******************* Footer *********************/
+footer{
+    margin-top: 5%;
+    background-color: rgba(99, 90, 90, 0.093);
+    height: 100px;
+    width: 100%;
+}
+
+
+
+
+/************************ combine perforomance of different section ***********************/
+
+
+
+.showcases,.services,.designers,.packages,.contact{margin-bottom: 80px;}
+.designers p, .services p,.packages p,.contact p{color: rgba(0, 0, 0, 0.686);}
+html {scroll-behavior: smooth;}
+
